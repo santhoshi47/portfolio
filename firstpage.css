@@ -1,0 +1,61 @@
+.a{
+    position:relative;
+    height:10%;
+    width:calc(130%-80%);
+    float:left;
+    top:-2px;
+    right:2px;
+    animation: animateUser 4s linear infinite;
+
+}
+@keyframes animateUser{
+    50%
+    {
+        right:1px;
+        top:1px;
+    }
+}
+.b{
+    position:relative;
+    height:5%;
+    width:calc(13%-5%);
+    float:left;
+    top:2px;
+    right:2px;
+    animation: animateUser 4s linear infinite;
+
+}
+@keyframes animateUser{
+    50%
+    {
+        right:1px;
+        top:1px;
+    }
+}  
+h3{
+    clear:left;
+    color:blueviolet;
+    margin-top:110px;
+}
+h2{
+    color:blueviolet;
+    margin-left:250px;
+    margin-top:100px;
+}
+div{
+    color:black;
+}
+html{
+    background-color:white;
+}
+h3.skill{
+    position:absolute;
+   margin-top:80px;
+    margin-left:280px;
+}
+ul{
+    position:absolute;
+    margin-top:100px;
+    margin-left:250px;
+    color:black;
+}
